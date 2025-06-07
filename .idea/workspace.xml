@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9490b87a-663a-4e98-8a43-7e78e277a7af" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/AboutUs/LindaTorres.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutUs/NaharMalik.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutUs/TariqBenson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9490b87a-663a-4e98-8a43-7e78e277a7af" name="Changes" comment="more to the web-side">
+      <change afterPath="$PROJECT_DIR$/Services/buildYours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/mAndR.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Services/repairYourself.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/LindaTorres.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/LindaTorres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/NaharMalik.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/NaharMalik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/TariqBenson.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/TariqBenson.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/book.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +97,7 @@
       <updated>1749133396509</updated>
       <workItem from="1749133397725" duration="1223000" />
       <workItem from="1749233543682" duration="4008000" />
-      <workItem from="1749238776807" duration="38927000" />
+      <workItem from="1749238776807" duration="40745000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -110,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749272739764</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more to the web-side">
+      <option name="closed" value="true" />
+      <created>1749316099211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749316099211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="more to the web-side" />
+    <option name="LAST_COMMIT_MESSAGE" value="more to the web-side" />
   </component>
 </project>
