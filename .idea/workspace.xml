@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9490b87a-663a-4e98-8a43-7e78e277a7af" name="Changes" comment="more to the web-side">
-      <change afterPath="$PROJECT_DIR$/Services/buildYours.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/mAndR.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Services/repairYourself.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutUs/LindaTorres.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/LindaTorres.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutUs/NaharMalik.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/NaharMalik.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AboutUs/TariqBenson.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/TariqBenson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/buildYours.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/buildYours.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/mAndR.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/mAndR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/repairYourself.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/repairYourself.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
@@ -97,7 +97,7 @@
       <updated>1749133396509</updated>
       <workItem from="1749133397725" duration="1223000" />
       <workItem from="1749233543682" duration="4008000" />
-      <workItem from="1749238776807" duration="40745000" />
+      <workItem from="1749238776807" duration="43067000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -123,7 +123,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749316099211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more to the web-side">
+      <option name="closed" value="true" />
+      <created>1749317920910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749317920910</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
