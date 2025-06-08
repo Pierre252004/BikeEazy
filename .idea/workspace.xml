@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9490b87a-663a-4e98-8a43-7e78e277a7af" name="Changes" comment="more to the web-side">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07-Jun-25_2_21_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/LindaTorres.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/LindaTorres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/NaharMalik.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/NaharMalik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutUs/TariqBenson.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/TariqBenson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/buildYours.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/buildYours.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/mAndR.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/mAndR.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/repairYourself.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/repairYourself.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +49,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -47,18 +56,19 @@
     &quot;assignee&quot;: &quot;Pierre252004&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Pierre252004/bikeEazy.git&quot;,
-    &quot;accountId&quot;: &quot;9da2b5b7-24b3-4307-8fdf-a828620260e6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Pierre252004/BikeEazy.git",
+    "accountId": "9da2b5b7-24b3-4307-8fdf-a828620260e6"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2y5ndu1w8UBivb9kSEtu4x1hMvo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -77,6 +87,7 @@
     "JavaScript Debug.location.html.executor": "Run",
     "JavaScript Debug.services.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pierr/Downloads/Assignement 1 - 300283706 - CSI 2132 B/bikeEazy",
@@ -102,11 +113,6 @@
       <visibility group="yarn" flag="true" />
     </myKeys>
   </component>
-  <component name="RunManager">
-    <configuration name="save.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/save.php">
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -126,7 +132,11 @@
       <workItem from="1749133397725" duration="1223000" />
       <workItem from="1749233543682" duration="4008000" />
       <workItem from="1749238776807" duration="43067000" />
-      <workItem from="1749381845231" duration="13214000" />
+      <workItem from="1749381845231" duration="14051000" />
+      <workItem from="1749401102813" duration="9000" />
+      <workItem from="1749401140131" duration="45000" />
+      <workItem from="1749401204814" duration="255000" />
+      <workItem from="1749401464002" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -184,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749388722965</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="more to the web-side">
+      <option name="closed" value="true" />
+      <created>1749400291437</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1749400291437</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
