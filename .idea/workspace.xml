@@ -6,19 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9490b87a-663a-4e98-8a43-7e78e277a7af" name="Changes" comment="more to the web-side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs/LindaTorres.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/LindaTorres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs/NaharMalik.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/NaharMalik.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/PierreGeorges.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs/TariqBenson.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs/TariqBenson.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/buildYours.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/buildYours.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/mAndR.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/mAndR.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/repairYourself.html" beforeDir="false" afterPath="$PROJECT_DIR$/Services/repairYourself.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/location.html" beforeDir="false" afterPath="$PROJECT_DIR$/location.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +74,12 @@
     "JavaScript Debug.TariqBenson.html.executor": "Run",
     "JavaScript Debug.about.html.executor": "Run",
     "JavaScript Debug.book.html.executor": "Run",
+    "JavaScript Debug.buildYours.html.executor": "Run",
     "JavaScript Debug.contact.html.executor": "Run",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.location.html.executor": "Run",
+    "JavaScript Debug.mAndR.html.executor": "Run",
+    "JavaScript Debug.repairYourself.html.executor": "Run",
     "JavaScript Debug.services.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -99,20 +94,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunAnythingCache">
-    <myKeys>
-      <visibility group="Gradle Tasks" flag="true" />
-      <visibility group="Grunt" flag="true" />
-      <visibility group="Gulp" flag="true" />
-      <visibility group="HTTP Requests" flag="true" />
-      <visibility group="Maven Goals" flag="true" />
-      <visibility group="Node.js" flag="true" />
-      <visibility group="Recent projects" flag="true" />
-      <visibility group="Run configurations" flag="true" />
-      <visibility group="npm" flag="true" />
-      <visibility group="yarn" flag="true" />
-    </myKeys>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -136,7 +117,7 @@
       <workItem from="1749401102813" duration="9000" />
       <workItem from="1749401140131" duration="45000" />
       <workItem from="1749401204814" duration="255000" />
-      <workItem from="1749401464002" duration="617000" />
+      <workItem from="1749401464002" duration="8419000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -202,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749400291437</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more to the web-side">
+      <option name="closed" value="true" />
+      <created>1749402293617</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749402293617</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

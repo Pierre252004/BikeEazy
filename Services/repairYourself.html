@@ -74,58 +74,225 @@
             font-size: 0.9rem;
             color: #666;
         }
+        .site {
+            display: none;
+        }
+        .site.active {
+            display: block;
+        }
+        .switch-btn {
+            margin-bottom: 20px;
+        }
+        .gmail{
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        .gmail-header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            border-bottom: 1px solid #dadce0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .gmail-header h1 {
+            font-size: 20px;
+            margin: 0;
+            color: #202124;
+        }
+        .fullscreen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
     </style>
 </head>
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-    <div class="container-fluid flex-column align-items-start">
-        <div class="d-flex w-100 justify-content-between align-items-center mb-2 flex-wrap">
-            <a class="navbar-brand d-flex align-items-center" href="../">
-                <img src="../img/logo.png" alt="Bike Eazy Logo" width="50" class="me-2" />
-                <span class="fw-bold fs-4"><i>Our Service:</i> Repair By Yourself</span>
-            </a>
-            <div class="d-flex flex-wrap align-items-center gap-3">
-                <span class="infoBox">145 Rideau Street, Ottawa, ON</span>
-                <span class="infoBox">(613) 555-9283</span>
+<div id="siteM" class="site active">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid flex-column align-items-start">
+            <div class="d-flex w-100 justify-content-between align-items-center mb-2 flex-wrap">
+                <a class="navbar-brand d-flex align-items-center" href="../">
+                    <img src="../img/logo.png" alt="Bike Eazy Logo" width="50" class="me-2" />
+                    <span class="fw-bold fs-4"><i>Our Service:</i> Repair By Yourself</span>
+                </a>
+                <div class="d-flex flex-wrap align-items-center gap-3">
+                    <span class="infoBox">145 Rideau Street, Ottawa, ON</span>
+                    <span class="infoBox">(613) 555-9283</span>
+                </div>
+            </div>
+
+            <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse w-100" id="navToggle">
+                <ul class="navbar-nav d-flex align-items-start gap-3">
+                    <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="../services">Our Goal</a></li>
+                            <li><a class="dropdown-item" href="./buildYours">Build Your Bike</a></li>
+                            <li><a class="dropdown-item" href="./mAndR">Maintenance & Repair</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="../about">Mission</a></li>
+                            <li><a class="dropdown-item" href="../AboutUs/PierreGeorges">Our Founder & Our Lead Mechanic</a></li>
+                            <li><a class="dropdown-item" href="../AboutUs/LindaTorres">Our Community & Our Education Manager</a></li>
+                            <li><a class="dropdown-item" href="../AboutUs/NaharMalik">Our Customer Experience Specialistc</a></li>
+                            <li><a class="dropdown-item" href="../AboutUs/TariqBenson">Our Sustainability & Our Partnerships Lead</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../contact">Contact Us</a></li>
+                </ul>
+                <div class="ms-auto">
+                    <a class="btn buttonBox" href="../location">Hour of Operation</a>
+                    <a class="btn buttonBox" href="../book">Book</a>
+                </div>
             </div>
         </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container my-5">
+        <div class="row g-4">
+            <!-- Map Section -->
+            <div class="col-lg-6">
+                <div class="card-section h-100">
+                    <h4>Repair By Yourself</h4>
+                    <p><strong>Price:</strong> 10$</p>
+                    <h5>Availability</h5>
+                    <p><strong>Tuesday:</strong> 2:00 PM - 7:00 PM</p>
+                    <p><strong>Thursday:</strong> 12:00 PM - 5:00 PM</p>
+                    <h5>Description</h5>
+                    <p>Want to fix it yourself but don’t have the tools or space? Our Repair By Yourself option gives you access to our full workshop, tools, and a clean workbench for just $10. You’ll have the freedom to work at your own pace, with optional guidance from staff if needed. Perfect for DIY enthusiasts or those looking to learn by doing.</p>
+                    <p><i>First-come, first-served. Tools and workbenches provided.</i></p>
+                </div>
+            </div>
 
-        <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navToggle">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse w-100" id="navToggle">
-            <ul class="navbar-nav d-flex align-items-start gap-3">
-                <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                        <li><a class="dropdown-item" href="../services">Our Goal</a></li>
-                        <li><a class="dropdown-item" href="./buildYours">Build Your Bike</a></li>
-                        <li><a class="dropdown-item" href="./mAndR">Maintenance & Repair</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
-                    <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                        <li><a class="dropdown-item" href="../about">Mission</a></li>
-                        <li><a class="dropdown-item" href="../AboutUs/PierreGeorges">Our Founder & Our Lead Mechanic</a></li>
-                        <li><a class="dropdown-item" href="../AboutUs/LindaTorres">Our Community & Our Education Manager</a></li>
-                        <li><a class="dropdown-item" href="../AboutUs/NaharMalik">Our Customer Experience Specialistc</a></li>
-                        <li><a class="dropdown-item" href="../AboutUs/TariqBenson">Our Sustainability & Our Partnerships Lead</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a class="nav-link" href="../contact">Contact Us</a></li>
-            </ul>
-            <div class="ms-auto">
-                <a class="btn buttonBox" href="../location">Hour of Operation</a>
-                <a class="btn buttonBox" href="../book">Book</a>
+            <!-- Info Section -->
+            <div class="col-lg-6">
+                <div class="card-section h-100">
+                    <h4>Booking Form</h4>
+                    <form id="bookForm">
+                        <div class="mb-3">
+                            <label for="userName" class="form-label">Your Name</label>
+                            <input type="text" id="userName" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userEmail" class="form-label">Your Email</label>
+                            <input type="email" id="userEmail" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="dateSelect" class="form-label">Available Dates:</label>
+                            <select class="form-select" id="dateSelect" required>
+                                <option value="">Choose one...</option>
+                                <option value="Tuesday, June 10, 2:00 PM - 5:00 PM">Tuesday, June 10, 2:00 PM - 5:00 PM</option>
+                                <option value="Thursday, June 12, 12:00 AM - 5:00 PM">Thursday, June 12, 12:00 AM - 5:00 PM</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary"> Submit Booking</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
-</nav>
 
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>Designed by Pierre Georges • © 2025 QuickCycle Repairs</p>
+        <a href="https://pierre252004.github.io/Portfolio/">Pierre's portfolio</a>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+
+<!--- Email --->
+<div id="email" class="site gmail">
+    <div class="gmail-header">
+        <h1>Gmail</h1>
+        <span id="mailDisplay"></span>
+    </div>
+
+    <div>
+        <button onclick="goBack()" class="btn-gmail">Back</button>
+        <button  class="btn-gmail">Archive</button>
+        <button class="btn-gmail">Delete</button>
+        <button class="btn-gmail">Mark as unread</button>
+    </div>
+
+    <div class="email-content">
+        <div class="email-title">Your booking For Repair By Yourself is Confirmed!</div>
+        <div class="email-meta">
+            <div class="sender-info">
+                <strong>Bike Eazy</strong> &lt;info@bikeeazy.ca&gt;<br>
+                to me
+            </div>
+        </div>
+
+        <div class="email-body">
+            Hi <span id="nameDisplay"></span>,<br><br>
+            Thank you for Booking with <strong>Bike Eazy</strong>! We're excited to meet you.<br><br>
+            <strong> Booking date:</strong><br>
+            <span id="dateDisplay"></span><br><br>
+            <strong> Booking Location:</strong><br>
+            Bike Eazy HQ<br>
+            145 Rideau Street, Suite 210<br>
+            Ottawa, ON K1N 5X4<br>
+            Canada<br><br>
+            Ride safe!<br>
+            – The Bike Eazy Team 🚴
+        </div>
+
+        <div class="reply-buttons">
+            <button class="btn-gmail">Reply</button>
+            <button class="btn-gmail">Forward</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    const serviceDates = {
+        build: ["Monday, June 9, 1:00 PM - 5:00 PM", "Wednesday, June 11, 3:00 PM - 7:00 PM", "Saturday, June 14, 11:00 AM - 4:00 AM"],
+        maintain: ["Monday, June 9, 10:00 AM - 6:00 PM", "Tuesday, June 10, 10:00 AM - 6:00 PM", "Wednesday, June 11, 10:00 AM - 6:00 PM","Thursday, June 12, 10:00 AM - 6:00 PM", "Friday, June 13, 10:00 AM - 6:00 PM", "Saturday, June 14, 10:00 AM - 6:00 PM"],
+        diy: ["Tuesday, June 10, 2:00 PM - 5:00 PM", "Thursday, June 12, 12:00 AM - 5:00 PM"]
+    };
+    const form = document.getElementById('bookForm');
+    const siteM = document.getElementById('siteM');
+    const email = document.getElementById('email');
+    const nameDisplay = document.getElementById('nameDisplay');
+    const mailDisplay = document.getElementById('mailDisplay');
+    const dateDisplay =  document.getElementById('dateDisplay');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('userName').value;
+        const mail = document.getElementById('userEmail').value;
+        const date = document.getElementById('dateSelect').value;
+        nameDisplay.textContent = name;
+        mailDisplay.textContent = mail;
+        dateDisplay.textContent = date;
+
+        siteM.classList.remove('active');
+        email.classList.add('active');
+    });
+
+    function goBack() {
+        email.classList.remove('active');
+        siteM.classList.add('active');
+    }
+</script>
 </body>
 </html>

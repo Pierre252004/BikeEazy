@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us<-Bike Eazy</title>
+    <title>Booking<-Bike Eazy</title>
     <link rel="icon" type="image/png" href="./img/symbol.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
@@ -121,7 +121,7 @@
             <div class="d-flex w-100 justify-content-between align-items-center mb-2 flex-wrap">
                 <a class="navbar-brand d-flex align-items-center" href="../">
                     <img src="img/logo.png" alt="Bike Eazy Logo" width="50" class="me-2" />
-                    <span class="fw-bold fs-4">Contact Us</span>
+                    <span class="fw-bold fs-4">Booking</span>
                 </a>
                 <div class="d-flex flex-wrap align-items-center gap-3">
                     <span class="infoBox">145 Rideau Street, Ottawa, ON</span>
@@ -169,28 +169,36 @@
             <!-- Map Section -->
             <div class="col-lg-6">
                 <div class="card-section h-100">
-                    <h4>Find Us on the Map</h4>
-                    <div class="ratio ratio-4x3 rounded">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.931710567225!2d-75.68925238444316!3d45.42753134491215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0503f7bd93d9%3A0xb3d18b0c2eb804ed!2s145%20Rideau%20St%2C%20Ottawa%2C%20ON%20K1N%205X4!5e0!3m2!1sen!2sca!4v1629927275842!5m2!1sen!2sca"
-                            style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
+                    <h4>Booking Options</h4>
+                    <h5>Build Your Own Bike</h5>
+                    <p><strong>Price:</strong> 40$</p>
+                    <h6>Availability</h6>
+                    <p><strong>Monday:</strong> 1:00 PM - 5:00 PM</p>
+                    <p><strong>Wednesday:</strong> 3:00 PM - 7:00 PM</p>
+                    <p><strong>Saturday:</strong> 11:00 AM - 4:00 PM</p>
+                    <p><i>Limited spots available per session. Booking recommended.</i> <br></p>
+
+                    <h5>Maintenance & Repair</h5>
+                    <p><strong>Price:</strong> 22$</p>
+                    <h6>Availability</h6>
+                    <p><strong>Monday to Friday:</strong> 10:00 AM - 6:00 PM</p>
+                    <p><strong>Saturday:</strong> 10:00 AM - 5:00 PM</p>
+                    <p><i>Walk-ins welcome. Same-day service available for basic repairs.</i></p>
                 </div>
             </div>
 
             <!-- Info Section -->
             <div class="col-lg-6">
                 <div class="card-section h-100">
-                    <h4>Location</h4>
-                    <p>145 Rideau Street, Suite 210<br>Ottawa, ON K1N 5X4<br>Canada</p>
+                    <h5>Repair By Yourself</h5>
+                    <p><strong>Price:</strong> 10$</p>
+                    <h6>Availability</h6>
+                    <p><strong>Tuesday:</strong> 2:00 PM - 7:00 PM</p>
+                    <p><strong>Thursday:</strong> 12:00 PM - 5:00 PM</p>
+                    <p><i>First-come, first-served. Tools and workbenches provided.</i><br></p>
 
-                    <h4>Contact</h4>
-                    <p><strong>Phone:</strong> (613) 555-9283</p>
-                    <p><strong>Email:</strong> info@bikeeazy.ca</p>
-                    <p><strong>Instagram:</strong> @bikeeazy.ottawa</p>
-                    <form id="subForm">
+                    <h4>Booking Form</h4>
+                    <form id="bookForm">
                         <div class="mb-3">
                             <label for="userName" class="form-label">Your Name</label>
                             <input type="text" id="userName" class="form-control" placeholder="First Name" required>
@@ -200,14 +208,21 @@
                             <input type="email" id="userEmail" class="form-control" required>
                         </div>
                         <div class="mb-3">
-                            <label for="userPhone" class="form-label">Your Phone Number</label>
-                            <input type="phone" id="userPhone" class="form-control">
+                            <label for="serviceType" class="form-label">Select Service:</label>
+                            <select class="form-select" id="serviceType" required>
+                                <option value="">-- Choose a Service --</option>
+                                <option value="build">Build Your Bike</option>
+                                <option value="maintain">Maintenance & Repair</option>
+                                <option value="diy">Repair By Yourself</option>
+                            </select>
                         </div>
                         <div class="mb-3">
-                            <label for="message" class="form-label">Any Comments</label>
-                            <input type="message" id="message" class="form-control">
+                            <label for="dateSelect" class="form-label">Available Dates:</label>
+                            <select class="form-select" id="dateSelect" required>
+                                <option value="">-- Select a Service First --</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn btn-primary"> Subscribe For Event </button>
+                        <button type="submit" class="btn btn-primary"> Submit Booking</button>
                     </form>
                 </div>
             </div>
@@ -239,25 +254,24 @@
     </div>
 
     <div class="email-content">
-        <div class="email-title">Your Subscription is Confirmed!</div>
+        <div class="email-title">Your booking For <span id="serviceDisplay"></span> is Confirmed!</div>
         <div class="email-meta">
             <div class="sender-info">
                 <strong>Bike Eazy</strong> &lt;info@bikeeazy.ca&gt;<br>
                 to me
             </div>
-            <div class="timestamp">
-                Jun 8, 2025, 10:04 AM
-            </div>
         </div>
 
         <div class="email-body">
             Hi <span id="nameDisplay"></span>,<br><br>
-            Thank you for Subscribing with <strong>Bike Eazy</strong>! We're excited to keep you update with future information.<br><br>
-            <strong>Please verify your information:</strong><br>
-            <strong>Your name:</strong> <span id="name1Display"></span><br>
-            <strong>Your phone:</strong> <span id="phoneDisplay"></span><br><br>
-
-            <strong>Comment:</strong><br><span id="messageDisplay"></span><br><br>
+            Thank you for Booking with <strong>Bike Eazy</strong>! We're excited to meet you.<br><br>
+            <strong> Booking date:</strong><br>
+            <span id="dateDisplay"></span><br><br>
+            <strong> Booking Location:</strong><br>
+            Bike Eazy HQ<br>
+            145 Rideau Street, Suite 210<br>
+            Ottawa, ON K1N 5X4<br>
+            Canada<br><br>
             Ride safe!<br>
             – The Bike Eazy Team 🚴
         </div>
@@ -270,34 +284,61 @@
 </div>
 
 <script>
-    const form = document.getElementById('subForm');
+    const serviceDates = {
+        build: ["Monday, June 9, 1:00 PM - 5:00 PM", "Wednesday, June 11, 3:00 PM - 7:00 PM", "Saturday, June 14, 11:00 AM - 4:00 AM"],
+        maintain: ["Monday, June 9, 10:00 AM - 6:00 PM", "Tuesday, June 10, 10:00 AM - 6:00 PM", "Wednesday, June 11, 10:00 AM - 6:00 PM","Thursday, June 12, 10:00 AM - 6:00 PM", "Friday, June 13, 10:00 AM - 6:00 PM", "Saturday, June 14, 10:00 AM - 6:00 PM"],
+        diy: ["Tuesday, June 10, 2:00 PM - 5:00 PM", "Thursday, June 12, 12:00 AM - 5:00 PM"]
+    };
+    const serviceType = document.getElementById("serviceType");
+    const dateSelect = document.getElementById("dateSelect");
+    const form = document.getElementById('bookForm');
     const siteM = document.getElementById('siteM');
     const email = document.getElementById('email');
     const nameDisplay = document.getElementById('nameDisplay');
-    const name1Display = document.getElementById('name1Display');
     const mailDisplay = document.getElementById('mailDisplay');
-    const phoneDisplay = document.getElementById('phoneDisplay');
-    const messageDisplay =  document.getElementById('messageDisplay');
+    const serviceDisplay = document.getElementById('serviceDisplay');
+    const dateDisplay =  document.getElementById('dateDisplay');
+
+    serviceType.addEventListener("change", function () {
+        const selected = serviceType.value;
+        dateSelect.innerHTML = `<option value="">-- Choose a Date --</option>`;
+
+        if (serviceDates[selected]) {
+            serviceDates[selected].forEach(date => {
+                const option = document.createElement("option");
+                option.value = date;
+                option.textContent = date;
+                dateSelect.appendChild(option);
+            });
+        } else {
+            const option = document.createElement("option");
+            option.textContent = "-- Select a Service First --";
+            dateSelect.appendChild(option);
+        }
+    });
 
     form.addEventListener('submit', function(event) {
         event.preventDefault();
 
         const name = document.getElementById('userName').value;
         const mail = document.getElementById('userEmail').value;
-        const phone = document.getElementById('userPhone').value;
-        const message = document.getElementById('message').value;
-
-        if (message == ''){
-            messageDisplay.textContent = 'N.A.';
+        const service = document.getElementById('serviceType').value;
+        const date = document.getElementById('dateSelect').value;
+        nameDisplay.textContent = name;
+        mailDisplay.textContent = mail;
+        if(service == 'build'){
+            serviceDisplay.textContent = 'Build Your Bike';
+        }
+        else if (service == 'maintain'){
+            serviceDisplay.textContent = 'Maintenance & Repair';
+        }
+        else if (service == 'diy'){
+            serviceDisplay.textContent =  'Repair By Yourself';
         }
         else{
-            messageDisplay.textContent = message;
+            serviceDisplay.textContent ='N.A.';
         }
-
-        nameDisplay.textContent = name;
-        name1Display.textContent = name;
-        mailDisplay.textContent = mail;
-        phoneDisplay.textContent = phone;
+        dateDisplay.textContent = date;
 
         siteM.classList.remove('active');
         email.classList.add('active');
@@ -308,6 +349,5 @@
         siteM.classList.add('active');
     }
 </script>
-
 </body>
 </html>
